@@ -49,3 +49,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 Click on Login and you will be redirected to http://localhost:3000.
 Use Capture buttom to capture your image You will be able to see your detected mood and Youtube Suggested Playlist on the WebPage.
 
+# To Run Flask Application
+In the active Virtual Environment navgate to Flask folder  and run :
+```python app.py```
+Open the link to see the  running application
