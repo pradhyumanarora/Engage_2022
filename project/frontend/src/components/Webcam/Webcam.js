@@ -15,6 +15,7 @@ export const WebcamCapture = () => {
   // const [image_uri, setImageUri] = useState(null);
   const [image, setImage] = useState("");
   const [link, setLink] = useState("");
+  const [mood,setMood] = useState("");
   const webcamRef = React.useRef(null);
 
   const capture = React.useCallback(() => {
@@ -34,6 +35,7 @@ export const WebcamCapture = () => {
         return response.json();
       })
       .then((res) => {
+        setMood(res.mood);
         fetch("http://localhost:8000/image_process/get-emotion", {
           method: "POST",
           headers: {
@@ -53,7 +55,7 @@ export const WebcamCapture = () => {
   });
 
   return {
-      link,
+      link,mood,
     render: (
       <div className="webcam-container">
         <div className="webcam-img">

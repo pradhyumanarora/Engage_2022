@@ -8,7 +8,7 @@ import './homepage.css';
 // import Sidebar from "./Sidebar/Sidebar";
 
 function Homepage(){
-    const {link,render} = WebcamCapture();
+    const {link,render,mood} = WebcamCapture();
     return(
         <>
             {/* <Sidebar/> */}
@@ -19,7 +19,7 @@ function Homepage(){
             {/* <Player/> */}
             {/* <withAuth/> */}
             <div className="R-Player">
-                <div className="playlist">YOUR PLAYLIST</div> 
+                <div className="playlist">YOUR Expression : {mood}</div> 
                 <div className="player-container">
                     <ReactPlayer controls url = {link}/>
                     {/* <ReactPlayer className = "R-Componet" controls url = "https://www.youtube.com/watch?v=M_Fmvs5CiDo"/> */}
