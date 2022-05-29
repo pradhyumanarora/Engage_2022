@@ -1,0 +1,21 @@
+.navbar{
+    height: 20%;
+    width: 100%;
+    padding: 2em;
+    text-align: center;
+}
+
+.navbar-green{
+    background-color: #0FFF95;
+
+}
+
+
+.proj-title{
+    margin:0;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    vertical-align: middle;
+}

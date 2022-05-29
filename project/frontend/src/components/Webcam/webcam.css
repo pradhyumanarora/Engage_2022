@@ -1,0 +1,36 @@
+.webcam-container{
+    padding: 2em 2em;
+}
+
+video{
+    border: #103900;
+}
+
+.webcam-img{
+    text-align: center;
+
+}
+
+.btn-container{
+    text-align: center;
+}
+
+.webcam-btn{
+    width: 215px;
+    height: 55px;
+    background-color: #103900;
+    border-radius: 10px;
+    margin: 2em;
+    align-items: center;
+    text-align: center;
+
+}
+
+.btn-text{
+    font-family: 'Poppins';
+    font-weight: 200;
+    font-size: 36px;
+    line-height: 54px;
+    color: #0FFF95;
+
+}

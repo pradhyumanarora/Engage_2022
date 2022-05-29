@@ -1,0 +1,58 @@
+.music-player{
+    margin: auto;
+}
+
+.music-box{
+    width: 80%;
+    margin: 2em auto;
+    background-color: #0FFF95;
+    position: relative;
+}
+
+.music-text{
+    flex-direction: row;
+    padding: 2em 4em;
+}
+
+.music-name{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    /*display: inline;*/
+}
+
+.music-writer{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    padding-top:0;
+    margin-top: 0;
+    /*display: inline;*/
+}
+
+.music-buttons{
+
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    /*width: 400px;*/
+    display: inline;
+}
+
+.btn-back{
+    text-align: right;
+    display: inline;
+}
+
+.btn-play{
+    text-align: right;
+    display: inline;
+}
+
+.btn-next{
+    text-align: right;
+    display: inline;
+}
