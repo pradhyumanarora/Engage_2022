@@ -1,6 +1,6 @@
 # Engage_2022
 
-#Setup
+# Setup
 Clone the repository  using the command:
 ```
 $ git clone https://github.com/pradhyumanarora/Engage_2022.git
@@ -20,7 +20,7 @@ Then install the dependencied:
 cd project
 pip install -r requirements.txt
 ```
-#Activating Backend
+# Activating Backend
 To run backend and trained models head over to image_process.
 Copy the absolute path of ```emotion_classifier.h5`` and paste in place of
 ```classifier = load_model(r"C:\Users\Lenovo\Desktop\Engage_2022-main\Engage_2022-main\virtual\project\image_process\emotion_classifier.h5")```
@@ -33,7 +33,7 @@ To activate and run Django server run the following command:
 python manage.py runserver
 ```
 
-#Activating your frontend 
+# Activating your frontend 
 Open a new terminal and Install ```node_modules``` to run React-App
 ```
 cd frontend
@@ -45,4 +45,7 @@ npm start
 ``` 
 to run the React Server.
 
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Click on Login and you will be redirected to http://localhost:3000.
+Use Capture buttom to capture your image You will be able to see your detected mood and Youtube Suggested Playlist on the WebPage.
 
